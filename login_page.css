@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.parent{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    display:grid;
+    width:600px;
+    margin-top:7%;
+    grid-template-columns: 50% 50%;
+    border-radius:10px;
+    padding:20px;
+    /* box-shadow: 0 0 10px 20px rgb(255, 255, 255); */
+}
+.signup{
+    margin:0px;
+}
+h1{
+    margin:10px;
+    text-align: center;
+    color:#494949;
+}
+.signup {
+    border-right: 2px solid black;
+    width:300px;
+}
+.form_1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    display:flex;
+    margin:4px;
+    border: 1px solid black;
+    width:250px;
+    height:30px;
+    /* pointer-events: none; */
+}
+.image{
+    background-color: rgb(234, 234, 234);
+    width:30px;
+    padding-top:3px;
+}
+input{
+    border:0px;
+    width:210px;
+    height:27px;
+    font-size:15px;
+    margin-left: 5px;
+    outline: none;
+    background-color: rgba(96, 97, 97, 0);
+    /* pointer-events: none; */
+}
+.outsource button{
+    background-color: rgba(240, 248, 255, 0);
+    border:0px;
+}
+div.submit{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button.submit{
+    padding:5px;
+    background-color: rgba(0, 255, 255, 0);
+    width:200px;
+    height: 40px;
+}
+button.submit:hover{
+    border:3px solid #e4cd00;
+    border-bottom: 3px solid #4ba5a6;
+}
+.outsource{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* left:20px; */
+}
+.google{
+    display:flex;
+    margin-bottom:20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(156, 230, 255); */
+    border:1px solid black;
+    padding:20px;
+}
+.google:hover{
+    border:2px solid black;
+}
+.google img{
+    margin-right:10px;
+}
+.github img{
+    margin-right:10px;
+}
+.github{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    padding:20px;
+}
+.github:hover{
+    border:2px solid black;
+}
